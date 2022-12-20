@@ -20,6 +20,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <h2>Esto es del putas maximo</h2>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
