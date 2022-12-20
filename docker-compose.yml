@@ -1,9 +1,9 @@
-version: "3.4"
+version: '3.7'
 
 services:
   app:
-    build:
-      context: ./
-      dockerfile: Dockerfile
+    container_name: storeStarClick
+    image: strujillodv/preact-template:v0.1
+    restart: unless-stopped
     ports:
-      - "8001:80"
+      - 8001:80
