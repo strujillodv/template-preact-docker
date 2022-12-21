@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "docker build -t  preact-template . && docker tag preact-template:v0.1 strujillodv/preact-template:v0.1 && docker push  strujillodv/preact-template:v0.1"
   },
   "dependencies": {
     "pocketbase": "^0.9.0",
