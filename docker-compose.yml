@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app:
     container_name: storeStarClick
-    image: strujillodv/preact-template:v0.1
+    image: strujillodv/preact-template:v0.3
     restart: unless-stopped
     ports:
       - 8001:80
